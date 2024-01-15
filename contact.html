@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="coronel1.css">
+
+    <title>Joshua's Portfolio</title>
+
+    <style>
+
+        
+
+    body {
+
+        background-color:#CABFAB;
+
+        font-family: sans-serif;
+
+        
+
+    }
+
+    .header{
+
+    color: white;
+
+    text-align: right;
+
+}
+
+
+
+
+
+ a{
+
+
+
+    text-decoration: none;
+
+    float: right;
+
+    margin: 0 15px;
+
+    padding: 05px;
+
+    color: #52575D;
+
+    font-size: 20px;
+
+
+
+    }
+
+
+
+ a:hover{
+
+    color: black;
+
+    position: static;
+
+    cursor: pointer;
+
+ }
+ 
+ a:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+    
+
+    section {
+
+        padding: 20px;
+
+    }
+
+    
+
+    table, th, td {
+
+        border: 1px solid black ;
+
+        border-collapse: collapse;
+
+        font-size: 20px;   
+
+        padding: 5px;
+
+    }
+
+    th{
+
+        background-color: #333;
+
+        color: #fff;
+
+    
+
+    }
+
+    
+
+    ul {
+
+        list-style: none;
+
+        margin: 0;
+
+        padding: 0;
+
+    
+
+    }
+
+    h2 {
+
+        margin-top: 0;
+
+    }
+
+    
+
+    
+
+ 
+
+    form {
+
+        margin-top: 20px;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+    
+
+    label {
+
+        margin-top: 10px;
+
+    }
+
+    
+
+    input[type=text], input[type=email], textarea {
+
+        width: 80%;
+
+        padding: 12px;
+
+        border: 2px solid #050505;
+
+        border-radius: 10px;
+
+        box-sizing: border-box;
+
+        margin-top: 6px;
+
+        margin-bottom: 16px;
+
+        resize: vertical;
+
+    }
+
+    
+
+    input[type=submit] {
+
+     
+
+     background-color: #F9F7C9;
+
+        color: black;
+
+        padding: 12px 20px;
+
+        border: none;
+
+        border-radius: 10px;
+
+        cursor: pointer;
+
+        font-weight: bolder;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+    
+
+    input[type=submit]:hover {
+
+        background-color: #555;
+         transition: 01s;
+         
+    }
+ 
+  
+
+   
+
+</style>
+
+</head>
+
+<body>
+
+    <div class="header">
+
+
+
+        <a href="index.html">Home</a>
+
+        <a href="about.html">About</a>
+
+        <a href="Project.html">Projects</a>
+
+       <a href="contact.html">Contact</a>
+
+
+
+    </div>
+
+        
+
+ 
+
+
+    <section>
+
+        <h2>Contact Me</h2>
+
+        <form>
+
+            <label for="name">Name:</label><br>
+
+            <input type="text" id="name" name="name" placeholder="Name" required><br>
+
+            <label for="email">Email:</label><br>
+
+            <input type="email" id="email" name="email" placeholder="Email" required><br>
+
+            <label for="message">Message:</label><br>
+
+            <textarea id="message" name="message"placeholder="Enter a Message" style="height:150px" required></textarea><br>
+
+            <input type="submit" value="Submit"
+            class="button">
+
+        </form>
+
+    </section>
+
+
+
+    
+
+</body>
+
+</html>

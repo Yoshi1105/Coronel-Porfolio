@@ -1,0 +1,224 @@
+
+body{
+
+    background-color:#CABFAB;
+
+    font-family: sans-serif;
+
+}
+
+
+
+.body{
+
+    float: right;
+
+    margin-left: 100px;
+    padding-right: 50px;
+    margin-top: 100px;
+
+    color: #52575D;
+
+    
+
+    background-repeat: no-repeat;
+
+    background-position: right;
+
+    background-size: 200px auto;
+    
+    
+
+   
+
+}
+
+
+
+
+.header{
+
+    color: white;
+
+    text-align: right;
+
+}
+
+
+
+
+
+ a {
+
+
+
+    text-decoration: none;
+
+    float: right;
+
+    margin: 0 15px;
+
+    padding: 05px;
+
+    color: #52575D;
+
+    font-size: 20px;
+
+
+
+}
+
+
+
+ .click:hover{
+
+    color: black;
+
+    position: static;
+
+    cursor: pointer;
+
+
+
+}
+
+
+
+p{
+
+    font-size: 20px;
+
+    width: 40%;
+
+   font-family: sans-serif;
+
+
+
+   
+
+}
+
+
+
+h1{
+
+    margin: 5px 0 ;
+
+    font-weight: bold;
+
+    font-size: 80px;
+
+    color: black;
+
+}
+
+.pogi{
+
+    font-weight: bold;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    
+
+    
+
+}
+.pogi1{
+
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+   
+    
+
+    
+
+    
+
+}
+
+.click {
+    letter-spacing: 0;
+}
+
+.click:hover,
+.click:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+
+.animated-button {
+    position: relative;
+    display: inline-block;
+    padding: 12px 24px;
+    border: none;
+    font-size: 16px;
+    background-color: beige;
+    border-radius: 100px;
+    font-weight: 600;
+    color: black;
+    box-shadow: 0 0 0 2px #ffffff20;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .animated-button span:last-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-color: #2196F3;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .animated-button span:first-child {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .animated-button:hover {
+    box-shadow: 0 0 0 5px #2195f360;
+    color: #ffffff;
+  }
+  
+  .animated-button:active {
+    scale: 0.95;
+  }
+  
+  .animated-button:hover span:last-child {
+    width: 150px;
+    height: 150px;
+    opacity: 1;
+  }
+  
+  img {
+    border-radius: 50%;
+   
+    padding: left 500px;
+  }
+  
+  .container {
+    position: relative;
+  }
+  
+  .container {
+    position: absolute;
+    position: fixed;
+    top: 100px;
+    right: 16px;
+    font-size: 18px;
+    float: right;
+    padding-right: 150px;
+  }
+  
+  img { 
+    width: 100%;
+    height: auto;
+    opacity: 0.8
+  }
